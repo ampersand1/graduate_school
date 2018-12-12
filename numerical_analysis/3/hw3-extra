@@ -1,0 +1,43 @@
+!-------------------------------------------
+!    F(0) = alpha
+!    F(1) =
+!    do j = 2, N-1
+!          F(j) = -PI*PI*sin(PI*(j)*hIN)
+!      !    write(*,*) F(j)  ! for testing purposes.
+!      enddo
+!   F(N+1) = beta
+!-------------------------------------------
+
+
+!-------------------------------------------
+!    F(0) = alpha
+!    F(1) =
+!    do j = 2, N-1
+!         F(j) = -PI*PI*sin(PI*(j)*hIN)
+     !    write(*,*) F(j)  ! for testing purposes.
+!   enddo
+!   F(N+1) = beta
+!-------------------------------------------
+
+
+  !    write(*,*) F(j)  ! for testing purposes.
+
+
+
+
+  !-------------------------------------------
+  ! In AU=F, it calculates the F column.
+  ! Creates the A matrix.
+  ! Then, solves for U(estimate) using dgesv
+  !-------------------------------------------
+
+
+
+Potential problems
+! potential problem: j=0 index must also be filled.
+! check that e^() is actually correct
+
+! Actual Norm Calculation
+! Possible future optimization: calculate U(j)-Uexact(j) store once in variable.
+! Then use variable for calculation of all 3 norms.
+!check bounds carefully

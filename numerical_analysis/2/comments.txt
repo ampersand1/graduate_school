@@ -1,0 +1,3 @@
+Slope is near 0 for all the graphs.  This means that the error for all graphs was basically constant and even though h changed, the error stayed relatively the same.  The only difference was that they were all at different log (error) which means just the constant in front of the h term is different.  Honestly, I think this is wrong and that log-log graph of h and error is supposed to be positive sloping to show that decreasing h by orders of magnitude will greatly decrease the error.  
+
+  
